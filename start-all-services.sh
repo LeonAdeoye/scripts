@@ -2,3 +2,5 @@
 sleep 3
 ./start-service.sh logging-service
 sleep 3
+./start-service.sh users-service
+sleep 3

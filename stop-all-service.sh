@@ -2,3 +2,5 @@
 sleep 3
 ./stop-service.sh logging-service
 sleep 3
+./stop-service.sh users-service
+sleep 3
