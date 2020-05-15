@@ -15,6 +15,7 @@ else
 	echo "Starting $1..."
 	cd ../bin/
 	java -Xms1g -Xms2g -jar $1.jar 2>&1 &
+	sleep 3
 	ps -ef | grep $1.jar | grep -v grep
 	if [ "$?" = "0" ]
 	then
