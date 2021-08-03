@@ -4,3 +4,7 @@ sleep 3
 sleep 3
 ./stop-service.sh users-service
 sleep 3
+./stop-service.sh bitcoin-service
+sleep 3
+./stop-service.sh validation-service
+sleep 3
